@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="actividad:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb6b981-f443-438e-8de9-3f43473a4c93" name="Default Changelist" comment="proyecto final, base de datos y archivos.">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/actividad_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bd/adm_de_actividades.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/controladorArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/controllerGrupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/controllerOrganigrama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/controllerPeriodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/controllerPuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/controllerRol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inlcude/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inlcude/Grupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inlcude/Organigrama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inlcude/Periodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inlcude/Puesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inlcude/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelos/conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelos/modeloArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelos/modeloGrupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelos/modeloOrganigrama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelos/modeloPeriodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelos/modeloPuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelos/modeloRol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ServletCrearArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ServletCrearRol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ServletModificarArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/ServletModificarRol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Salir.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/._web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/a_area.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/a_rol.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/acercade.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/areas.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/borrar_area.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._custom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._dropify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._dropify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._fixed-menu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._ghpages-materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._horizontal-menu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._layouts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/._tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/custom/._custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/custom/._custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/custom/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/custom/custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/dropify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/dropify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fixed-menu/._materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fixed-menu/._style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fixed-menu/materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fixed-menu/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/ghpages-materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/horizontal-menu/._materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/horizontal-menu/._style-horizontal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/horizontal-menu/._style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/horizontal-menu/materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/horizontal-menu/style-horizontal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/horizontal-menu/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/._page-center.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/._style-fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/._style-fullscreen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/._style-horizontal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/._style-horizontal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/page-center.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/style-fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/style-fullscreen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/style-horizontal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/layouts/style-horizontal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/._media-hover-effects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/media-hover-effects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/._avatar-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/Y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/avatar-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/m.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._alertas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._custom-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._custom-script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._data-tables-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._data-tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._dropify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._dropify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._jquery-sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._jquery.collapsible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._jquery.collapsible.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._materialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._materialize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._plugins.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._sweetalert-dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/._sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/alertas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/custom-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/custom-script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/data-tables-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/data-tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/dropify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/dropify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.collapsible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.collapsible.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/materialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/materialize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/sweetalert-dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/m_area.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/m_rol.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/rols.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/._footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/._header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/._menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/menu.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1096450081">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.50" value="2" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="50" />
+          <entry key="jsp" value="66" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="50" />
+          <entry key="JSP" value="66" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="840" />
+          <entry key="jsp" value="2757" />
+          <entry key="txt" value="87" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="840" />
+          <entry key="JSP" value="2757" />
+          <entry key="PLAIN_TEXT" value="88" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/a_area.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/ServletCrearArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/menu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/areas.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="37" column="74" lean-forward="true" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/rols.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/m_area.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/m_rol.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/creararea.jsp" />
+        <option value="$PROJECT_DIR$/web/borrar_rol.jsp" />
+        <option value="$PROJECT_DIR$/web/crearA.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/ServletCrearArea.java" />
+        <option value="$PROJECT_DIR$/src/controller/controladorArea.java" />
+        <option value="$PROJECT_DIR$/src/servlet/ServletModificarCarrera.java" />
+        <option value="$PROJECT_DIR$/src/servlet/ServletModificarArea.java" />
+        <option value="$PROJECT_DIR$/src/inlcude/Area.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/a_rol.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/ServletCrearRol.java" />
+        <option value="$PROJECT_DIR$/src/inlcude/Rol.java" />
+        <option value="$PROJECT_DIR$/src/controller/controllerRol.java" />
+        <option value="$PROJECT_DIR$/src/modelos/modeloRol.java" />
+        <option value="$PROJECT_DIR$/src/servlet/ServletModificarRol.java" />
+        <option value="$PROJECT_DIR$/web/rols.jsp" />
+        <option value="$PROJECT_DIR$/web/a_rol.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/ServletEliminarArea.java" />
+        <option value="$PROJECT_DIR$/web/borrar_area.jsp" />
+        <option value="$PROJECT_DIR$/web/views/header.jsp" />
+        <option value="$PROJECT_DIR$/web/a_area.jsp" />
+        <option value="$PROJECT_DIR$/web/acercade.jsp" />
+        <option value="$PROJECT_DIR$/web/Salir.jsp" />
+        <option value="$PROJECT_DIR$/web/views/footer.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/views/menu.jsp" />
+        <option value="$PROJECT_DIR$/web/m_area.jsp" />
+        <option value="$PROJECT_DIR$/web/areas.jsp" />
+        <option value="$PROJECT_DIR$/web/m_rol.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="actividad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actividad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="actividad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actividad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="actividad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actividad" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="actividad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544516857386" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/actividades_complementarias" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.34">
+    <configuration name="controladorArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.controladorArea" />
+      <module name="actividad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="areas.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/areas.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="crearA.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/crearA.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/index.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="actividad:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_34_actividad" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="actividad:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <deployment>
+        <artifact name="actividad:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_actividad" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="actividad:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.34" />
+      <item itemvalue="JavaScript Debug.index.jsp" />
+      <item itemvalue="JavaScript Debug.areas.jsp" />
+      <item itemvalue="JavaScript Debug.crearA.jsp" />
+      <item itemvalue="Application.controladorArea" />
+      <item itemvalue="Tomcat Server.index.jsp (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp (1)" />
+        <item itemvalue="Application.controladorArea" />
+        <item itemvalue="JavaScript Debug.crearA.jsp" />
+        <item itemvalue="JavaScript Debug.areas.jsp" />
+        <item itemvalue="JavaScript Debug.index.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb6b981-f443-438e-8de9-3f43473a4c93" name="Default Changelist" comment="" />
+      <created>1543517712593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543517712593</updated>
+      <workItem from="1543517722360" duration="77000" />
+      <workItem from="1543522871015" duration="250000" />
+      <workItem from="1543523149520" duration="631000" />
+      <workItem from="1543523865774" duration="740000" />
+      <workItem from="1544015973854" duration="2750000" />
+      <workItem from="1544068315485" duration="1722000" />
+      <workItem from="1544105614386" duration="4852000" />
+      <workItem from="1544193749735" duration="9143000" />
+      <workItem from="1544237933045" duration="16140000" />
+      <workItem from="1544448580996" duration="16753000" />
+      <workItem from="1544514350017" duration="3065000" />
+      <workItem from="1544534622787" duration="8003000" />
+      <workItem from="1544556658206" duration="893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65019000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54754096" visible="true" weight="0.21406959" />
+      <window_info id="Structure" order="1" sideWeight="0.452459" side_tool="true" weight="0.21482602" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.39072847" side_tool="true" weight="0.16490166" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25737706" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.04614221" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54754096" visible="true" weight="0.21785174" />
+      <window_info id="Structure" order="1" sideWeight="0.452459" side_tool="true" weight="0.21482602" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.39072847" side_tool="true" weight="0.16490166" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25737706" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.04614221" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="proyecto final, base de datos y archivos." />
+    <option name="LAST_COMMIT_MESSAGE" value="proyecto final, base de datos y archivos." />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/modelos/modeloGrupo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletCrear.java" />
+    <entry file="file://$PROJECT_DIR$/actividad.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/._web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/._header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/._footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/borrar_rol.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/crearA.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletModificarCarrera.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/a_rol.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletCrearRol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/controllerRol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelos/modeloRol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1595">
+          <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlcude/Rol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletEliminarArea.java" />
+    <entry file="file://$PROJECT_DIR$/web/views/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlcude/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/borrar_area.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletModificarRol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletModificarArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Salir.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/controladorArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/acercade.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/._menu.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelos/modeloArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/a_area.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletCrearArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/a_rol.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/rols.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/areas.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="37" column="74" lean-forward="true" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/m_area.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/m_rol.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>actividad:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>actividad</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.21</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
